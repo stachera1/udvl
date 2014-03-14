@@ -24,6 +24,11 @@ Zadania:
 Bonusy:
 * [Bonus 1](bonus01)
 
+Domáce úlohy
+------------
+
+* [DU 1](du01) (do Štvrtku 26.3. 13:10)
+
 Prednášky
 ---------
 * 19.2. Úvod: administratívia, motivácia
