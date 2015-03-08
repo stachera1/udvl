@@ -221,8 +221,8 @@ aby ste dodržali nasledovné pravidlá týkajúce sa odovzávania zdrojákov.
   použiť po prekonzultovaní a schválení cvičiacim.
 - Ako bude program dostávať vstup a kam vypisovať výstup bude povedané v
   konkrétnych cvičeniach.
-- Konkrétne zadania môžu tiež upresňovať, že máte odovzdať aj ďalšie súbory
-  navyše (príklad vstupu / výstupu atď.).
+- Konkrétne zadania upresnia mená súborov, ktoré máte odovzdávať, prípadne aké
+  ďalšie súbory navyše máte odovzdať (príklad vstupu / výstupu atď.).
 
 **Porušenie týchto pravidiel bude hodnotené 0 bodmi.**
 
@@ -230,34 +230,29 @@ aby ste dodržali nasledovné pravidlá týkajúce sa odovzávania zdrojákov.
 
 ### C
 
-- Riešenie musí obsahovať súbor `cvXX.c` s main funkciou, kde `XX` je číslo
-  cvičenia.
 - Riešenie môže obsahovať iba `.c` a `.h` súbory.
-- Kód musí byť skompilovateľný príkazom `gcc -Wall -o cvXX *.c`
+- Kód musí byť skompilovateľný príkazom `gcc -Wall -o cvXXtest *.c`
 - Nepoužívajte platformovo špecifické veci. Kód bude kompilovaný na unixovom
   systéme. Ak používate Visual Studio, dajte si pozor na [predkompilované
   hlavičkové súbory](http://en.wikipedia.org/wiki/Precompiled_header).
 
 ### C++
 
-- Riešenie musí obsahovať súbor `cvXX.cpp` s main funkciou, kde `XX` je číslo
-  cvičenia.
 - Riešenie môže obsahovať iba `.cpp` a `.h` súbory.
-- Kód musí byť skompilovateľný príkazom `g++ -Wall --std=c++0x -o cvXX *.cpp`
+- Kód musí byť skompilovateľný príkazom `g++ -Wall --std=c++0x -o cvXXtest *.cpp`
 - Nepoužívajte platformovo špecifické veci. Kód bude kompilovaný na unixovom
   systéme. Ak používate Visual Studio, dajte si pozor na [predkompilované
   hlavičkové súbory](http://en.wikipedia.org/wiki/Precompiled_header).
 
 ### Python
 
-- Riešenie musí obsahovať súbor `cvXX.py`, kde `XX` je číslo cvičenia.
 - Riešenie môže obsahovať iba `.py` súbory.
-- Kód musí byť spustiteľný príkazom `./cvXX.py`
+- Kód musí byť spustiteľný príkazom `./cvXXtest.py`
 - Nepoužívajte platformovo špecifické veci. Kód bude spúšťaný na unixovom systéme.
  
 ### Java
 
-- Riešenie musí obsahovať verejnú (public) triedu `CvXX` s main metódou v defaultnom balíku, kde `XX` je číslo cvičenia.
 - Riešenie môže obsahovať iba `.java` súbory.
-- Kód musí byť skompilovateľný príkazom `javac CvXX.java` a následne spustiteľný `java CvXX`.
+- Kód musí byť skompilovateľný príkazom `javac *.java` a následne spustiteľný
+  `java CvXXTest`.
 - Nepoužívajte platformovo špecifické veci. Kód bude spúšťaný na unixovom systéme.
