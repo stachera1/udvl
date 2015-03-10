@@ -239,7 +239,7 @@ aby ste dodržali nasledovné pravidlá týkajúce sa odovzávania zdrojákov.
 ### C++
 
 - Riešenie môže obsahovať iba `.cpp` a `.h` súbory.
-- Kód musí byť skompilovateľný príkazom `g++ -Wall --std=c++0x -o cvXXtest *.cpp`
+- Kód musí byť skompilovateľný príkazom `g++ -Wall --std=c++11 -o cvXXtest *.cpp`
 - Nepoužívajte platformovo špecifické veci. Kód bude kompilovaný na unixovom
   systéme. Ak používate Visual Studio, dajte si pozor na [predkompilované
   hlavičkové súbory](http://en.wikipedia.org/wiki/Precompiled_header).
@@ -249,7 +249,7 @@ aby ste dodržali nasledovné pravidlá týkajúce sa odovzávania zdrojákov.
 - Riešenie môže obsahovať iba `.py` súbory.
 - Kód musí byť spustiteľný príkazom `./cvXXtest.py`
 - Nepoužívajte platformovo špecifické veci. Kód bude spúšťaný na unixovom systéme.
- 
+
 ### Java
 
 - Riešenie môže obsahovať iba `.java` súbory.
