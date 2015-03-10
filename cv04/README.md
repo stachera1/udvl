@@ -1,9 +1,31 @@
 Cvičenie 4
 ==========
 
-**Riešenie odovzdávajte podľa
+**Riešenie úlohy [Sudoku](#Sudoku) odovzdávajte podľa
 [pokynov na konci tohoto zadania](#technické-detaily-riešenia)
 do Štvrtka 19.3.  23:59:59.**
+
+## Výroková logika
+
+1.   Uvažujme nasledové výroky:
+    - ks: "Katka je šťastná"
+    - kk: "Katka si kreslí obrázky"
+    - ms: "Miško je šťastný"
+
+    Zapíšte nasledovné tvrdenia vo výrokovej logike:
+    - "Keď je Katka šťastná, tak si kreslí obrázky."
+    - "Ak je Katka šťastná a kreslí si obrázky, tak Miško nie je šťastný"
+    - "Miško je nešťastný vždy keď si Katka kreslí obrázky."
+    - "Katka je šťastná, iba keď si kreslí obrázky."
+    - "Katka si nikdy nekreslí obrázky, keď je nešťastná."
+    - "Katka si buď kreslí obrázky, alebo je šťastná."
+
+2.  Upravte nasledovné formuly do konjunktívnej normálnej formy:
+    - (p ↔ q)
+    - (p → (q ∧ r))
+    - ((p ∧ q) → r)
+    - ((¬p → q) → (q → ¬r))
+    - (p ∨ (¬q ∧ (r → ¬p)))
 
 ## Sudoku (4b)
 
