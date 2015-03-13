@@ -1,31 +1,33 @@
 Cvičenie 4
 ==========
 
-**Riešenie úlohy [Sudoku](#Sudoku) odovzdávajte podľa
-[pokynov na konci tohoto zadania](#technické-detaily-riešenia)
-do Štvrtka 19.3.  23:59:59.**
+**Riešenie úlohy [Sudoku](#sudoku-4b) a bonusovej úlohy [CNF](#cnf-1b-bonus)
+odovzdávajte podľa [pokynov na konci tohoto
+zadania](#technické-detaily-riešenia) do Štvrtka 19.3.  23:59:59.**
 
 ## Výroková logika
 
-1.   Uvažujme nasledové výroky:
-    - ks: "Katka je šťastná"
-    - kk: "Katka si kreslí obrázky"
-    - ms: "Miško je šťastný"
+Uvažujme nasledové výroky:
+- ks: "Katka je šťastná"
+- kk: "Katka si kreslí obrázky"
+- ms: "Miško je šťastný"
 
-    Zapíšte nasledovné tvrdenia vo výrokovej logike:
-    - "Keď je Katka šťastná, tak si kreslí obrázky."
-    - "Ak je Katka šťastná a kreslí si obrázky, tak Miško nie je šťastný"
-    - "Miško je nešťastný vždy keď si Katka kreslí obrázky."
-    - "Katka je šťastná, iba keď si kreslí obrázky."
-    - "Katka si nikdy nekreslí obrázky, keď je nešťastná."
-    - "Katka si buď kreslí obrázky, alebo je šťastná."
+Zapíšte nasledovné tvrdenia vo výrokovej logike:
+- "Keď je Katka šťastná, tak si kreslí obrázky."
+- "Ak je Katka šťastná a kreslí si obrázky, tak Miško nie je šťastný"
+- "Miško je nešťastný vždy keď si Katka kreslí obrázky."
+- "Katka je šťastná, iba keď si kreslí obrázky."
+- "Katka si nikdy nekreslí obrázky, keď je nešťastná."
+- "Katka si buď kreslí obrázky, alebo je šťastná."
 
-2.  Upravte nasledovné formuly do konjunktívnej normálnej formy:
-    - (p ↔ q)
-    - (p → (q ∧ r))
-    - ((p ∧ q) → r)
-    - ((¬p → q) → (q → ¬r))
-    - (p ∨ (¬q ∧ (r → ¬p)))
+## CNF [1b bonus]
+
+Upravte nasledovné formuly do konjunktívnej normálnej formy:
+- (p ↔ q)
+- (p → (q ∧ r))
+- ((p ∧ q) → r)
+- ((¬p → q) → (q → ¬r))
+- (p ∨ (¬q ∧ (r → ¬p)))
 
 ## Sudoku (4b)
 
@@ -78,6 +80,18 @@ celou operáciou od neho odčítať jedna (a potom zase pripočítať 1 k n).
 ## Technické detaily riešenia
 
 Riešenie odovzdajte do vetvy `cv04` v adresári `cv04`.
+
+### CNF
+Riešenie úlohy CNF odovzdávajte v jednom z nasledovných formátov:
+- `cnf.pdf` vo formáte PDF
+- `cnf.txt` ako obyčajný textový súbor
+- `cnf.md` v GitHub Markdown formáte
+
+Riešenie musí obsahovať výsledné formuly v CNF, môže obsahovať postupné kroky, ktorými
+ste k nim dospeli. Preferovaný formát je obyčajný textový súbor, v ktorom sú formuly zapísané
+vo formáte aký vyrába metóda `toString` z [cvičenia 3](../cv03/).
+
+### Sudoku
 
 Všetky ukážkové a testovacie súbory k tomuto cvičeniu si môžete stiahnuť
 ako jeden zip súbor
