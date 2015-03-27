@@ -6,8 +6,8 @@ na začiatku štvrtkových cvičení).
 
 Úlohu odovzdávajte buď fyzicky na papier formátu A4 (čitateľne označenom a
 podpísanom) na prednáške alebo na cvičeniach, alebo elektronicky vo formáte PDF
-(ako súbor `du01.pdf`), ako obyčjaný textový alebo súbor (`du01.txt`), alebo
-ako súbor v GitHub Markdown formáte (`du01.md`) do vetvy `du01`. Nezabudnite vyrobiť
+(ako súbor `du02.pdf`), ako obyčjaný textový alebo súbor (`du02.txt`), alebo
+ako súbor v GitHub Markdown formáte (`du02.md`) do vetvy `du02`. Nezabudnite vyrobiť
 pull request.
 
 Wordovské dokumenty, obrázky a skenované / fotografované riešenia nebudú hodnotené.
