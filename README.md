@@ -6,6 +6,7 @@ Stránka predmetu je http://dai.fmph.uniba.sk/~siska/udvl/.
 
 Oznamy
 ------
+* **27.3.** **Midterm** bude v stredu 8.4. o 18:10 v F1.
 * **3.3.** Druhé cvičenia budú v štvrtok o 13:10 v H6.
 * **26.2.** Termín na odovzdávanie **druhého** cvičenia bol posunutý
   na 8.3.
