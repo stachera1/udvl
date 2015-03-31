@@ -62,6 +62,13 @@ class Disjunction(Formula):
         return c
 ```
 
+## prover.py
+
+V súbore [`prover.py`](prover.py) je ukážka veľmi jednoduchej funkcie, ktorá
+všetky naše doteraz implementované triedy používa, aby pomocou SAT solvera
+dokazovala, či nejaká formula vyplýva z nejakej teórie (množiny formúl).
+Samozrejme fungovať bude korektne až keď korektne naimplementujete `toCnf`.
+
 ## Technické detaily riešenia
 
 Riešenie odovzdajte do vetvy `cv07` v adresári `cv07`.  Odovzdávajte
