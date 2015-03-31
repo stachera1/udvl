@@ -23,9 +23,11 @@ Zadania:
 * [Cvičenie 4](cv04)
 * [Cvičenie 5](cv05)
 * [Cvičenie 6](cv06)
+* [Cvičenie 7](cv07)
 
 Bonusy:
 * [Bonus 1](bonus01)
+* [Bonus toCNF](cv07#bonus)
 
 Domáce úlohy
 ------------
