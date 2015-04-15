@@ -92,9 +92,9 @@ for p in range(P):
 
 ## Technické detaily riešenia
 
-Riešenie odovzdajte do vetvy `cv06` v adresári `cv06`.
+Riešenie odovzdajte do vetvy `cv08` v adresári `cv08`.
 
-Odovzdávajte program (`cv06.py`, `cv06.cpp` alebo `Cv06.java`), ktorý
+Odovzdávajte program (`cv08.py`, `cv08.cpp` alebo `cv08.java`), ktorý
 pomocou SAT solvera dokáže, kto zabil Agátu.
 
 Program by mal najskôr zakódovať iba teóriu a pustiť na ňu SAT solver, aby
